@@ -18,8 +18,7 @@ perks = {
   },
   [5]={},
   [6]={
-    --At the start of each scenario, you may summon a (fa:ufo)
-    add={"Perk Reminder #6"},
+    add={"(+4)"},
   },
   [7]={
     remove={"(+0)"},

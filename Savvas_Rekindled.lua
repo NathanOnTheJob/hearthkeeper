@@ -50,41 +50,41 @@ local CharacterSheet = require("Game.Frosthaven.Component.FrosthavenCharacterShe
 CharacterSheet.setup({
   perkPositions = {
   --[] Replace one [-2] card with one [+0] card
-  {81.99622844827587, 322.71176061306926},
+  {81.99622844827587, 322.71864377822396},
   --[][] Replace one [-1] card with one [+0] "Move the token on a [icon] backward one slot" card
-  {81.99622844827587, 266.58643194193314},
-  {104.34267241379308, 266.58643194193314},
+  {81.99622844827587, 266.70344574956243},
+  {104.34267241379308, 266.70344574956243},
   --[][] Replace one [-1] card with one [+0] "After this attack ability, grant one ally: [move] 2" card
-  {81.99622844827587, 184.95209320760955},
-  {104.34267241379308, 184.95209320760955},
+  {81.99622844827587, 184.72494875750567},
+  {104.34267241379308, 184.72494875750567},
   --[][] Replace one [+0] card with one [+1] push 2 card
-  {81.99622844827587, 103.24892282173937},
-  {104.34267241379308, 103.24892282173937},
+  {81.99622844827587, 102.45735882895292},
+  {104.34267241379308, 102.45735882895292},
   --[][] Replace one [+0] card with one [+1] "If the target is occupying a [icon], [+2] instead" card
-  {81.99622844827587, 47.12359415060313},
-  {104.34267241379308, 47.12359415060313},
+  {81.99622844827587, 46.44216080029138},
+  {104.34267241379308, 46.44216080029138},
   --[] Add two [+1] muddle rolling cards
-  {81.99622844827587, -34.579576235267105},
+  {81.99622844827587, -35.82542912826137},
   --[][] Add two "[heal] 1, [target] 1 ally" rolling cards
-  {81.99622844827587, -65.1270631916691},
-  {104.34267241379308, -65.1270631916691},
+  {81.99622844827587, -65.58823525703161},
+  {104.34267241379308, -65.58823525703161},
   --[] Ignore scenario effects and add one disarm rolling card
-  {81.99622844827587, -121.04589690816528},
+  {81.99622844827587, -120.72238814589599},
   --[] Whenever you long rest, you may destroy one [icon] within [range] 3 to place a [icon] in an empty hex within [range] 2
-  {81.99622844827587, -176.96473062466146},
+  {81.99622844827587, -175.85654103476048},
   --[] At the start of each scenario, you may place a [icon] in an adjacent empty hex
-  {81.99622844827587, -283.97041611907923},
+  {81.99622844827587, -283.2063847869114},
   --[||] When an enemy enters a hex containing a [icon], that enemy immediately suffers [damage] 1, and gains wound
-  {81.99622844827587, -365.1917649441229},
-  {81.99622844827587, -378.0166571855022},
-  {81.99622844827587, -390.8415494268815},
+  {81.99622844827587, -363.42279149937406},
+  {81.99622844827587, -376.24768374075336},
+  {81.99622844827587, -389.07257598213266},
 }
 ,
 masteryPositions = {
   --[] Starting from the end of the second round, always have two [icon] active
-  {-337.6549030172414, -342.29147447455347},
+  {-337.6616379310345, -342.29147447455347},
   --[] Over the course of a scenario, have the same ally receive a benefit from a [icon] during 10 different rounds
-  {-337.6549030172414, -395.8700320384636},
+  {-337.6616379310345, -395.8700320384636},
 }
 
 })

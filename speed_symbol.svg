@@ -4,7 +4,7 @@
    viewBox="0 0 512 512"
    version="1.1"
    id="svg2"
-   sodipodi:docname="bolt-bomb.svg"
+   sodipodi:docname="speed_symbol.svg"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -22,8 +22,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="1.2382812"
-     inkscape:cx="255.59621"
-     inkscape:cy="251.96215"
+     inkscape:cx="255.59622"
+     inkscape:cy="251.96216"
      inkscape:window-width="1440"
      inkscape:window-height="878"
      inkscape:window-x="-6"
@@ -34,27 +34,16 @@
      d="M0 0h512v512H0z"
      fill="#000"
      fill-opacity="1"
-     style="--darkreader-inline-fill: var(--darkreader-background-000000, #000000);"
+     style="fill:#000000;fill-opacity:0"
      data-darkreader-inline-fill=""
      id="path1" />
-  <circle
-     style="fill:#ffffff;fill-opacity:1;stroke-width:1.13457"
+  <path
      id="path3"
-     cx="256"
-     cy="256"
-     r="197.4511" />
+     style="fill:#ffffff;fill-opacity:1;stroke-width:1.13457"
+     d="M 256 58.548828 A 197.4511 197.4511 0 0 0 58.548828 256 A 197.4511 197.4511 0 0 0 256 453.45117 A 197.4511 197.4511 0 0 0 453.45117 256 A 197.4511 197.4511 0 0 0 256 58.548828 z M 268.49219 92.037109 L 267.68359 232.80664 L 356.76953 232.15234 L 237.14844 419.96289 L 245.07227 293.07227 L 155.23047 296.80664 L 268.49219 92.037109 z " />
   <g
      class=""
      id="g2"
-     transform="translate(-27.457413,-24)"
-     inkscape:label="g2">
-    <path
-       d="M 288,112 272,256 400,240 240,448 304,288 192,320 Z"
-       fill="#ffffff"
-       fill-opacity="1"
-       data-darkreader-inline-fill=""
-       id="path2"
-       sodipodi:nodetypes="ccccccc"
-       style="fill:#000000" />
-  </g>
+     transform="translate(-38.384855,-22.384855)"
+     inkscape:label="g2" />
 </svg>

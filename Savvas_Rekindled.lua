@@ -52,32 +52,32 @@ CharacterSheet.setup({
   --[] Replace one [-2] card with one [+0] card
   {81.99622844827587, 322.71864377822396},
   --[][] Replace one [-1] card with one [+0] "Move the token on a [icon] backward one slot" card
-  {81.99622844827587, 266.70344574956243},
-  {104.34267241379308, 266.70344574956243},
+  {81.99622844827587, 263.9639460180059},
+  {104.34267241379308, 263.9639460180059},
   --[][] Replace one [-1] card with one [+0] "After this attack ability, grant one ally: [move] 2" card
-  {81.99622844827587, 184.72494875750567},
-  {104.34267241379308, 184.72494875750567},
+  {81.99622844827587, 179.24594929439252},
+  {104.34267241379308, 179.24594929439252},
   --[][] Replace one [+0] card with one [+1] push 2 card
-  {81.99622844827587, 102.45735882895292},
-  {104.34267241379308, 102.45735882895292},
-  --[][] Replace one [+0] card with one [+1] "If the target is occupying a [icon], [+2] instead" card
-  {81.99622844827587, 46.44216080029138},
-  {104.34267241379308, 46.44216080029138},
+  {81.99622844827587, 94.23885963428324},
+  {104.34267241379308, 94.23885963428324},
+  --[][] Replace one [+0] card with one [+1] "If you or the target is occupying or adjacent to a [icon], [+2] instead" card
+  {81.99622844827587, 35.48416187406519},
+  {104.34267241379308, 35.48416187406519},
   --[] Add two [+1] muddle rolling cards
-  {81.99622844827587, -35.82542912826137},
+  {81.99622844827587, -75.48622674943954},
   --[][] Add two "[heal] 1, [target] 1 ally" rolling cards
-  {81.99622844827587, -65.58823525703161},
-  {104.34267241379308, -65.58823525703161},
+  {81.99622844827587, -107.98853260976631},
+  {104.34267241379308, -107.98853260976631},
   --[] Ignore scenario effects and add one disarm rolling card
-  {81.99622844827587, -120.72238814589599},
-  --[] Whenever you long rest, you may destroy one [icon] within [range] 3 to place a [icon] in an empty hex within [range] 2
-  {81.99622844827587, -175.85654103476048},
-  --[] At the start of each scenario, you may place a [icon] in an adjacent empty hex
-  {81.99622844827587, -283.2063847869114},
-  --[||] When an enemy enters a hex containing a [icon], that enemy immediately suffers [damage] 1, and gains wound
-  {81.99622844827587, -363.42279149937406},
-  {81.99622844827587, -376.24768374075336},
-  {81.99622844827587, -389.07257598213266},
+  {81.99622844827587, -165.86218523018727},
+  --[|] Once per scenario, when you would lose a card, destroy a [icon] within [range] 2 to discard it instead
+  {81.99622844827587, -223.73583785060828},
+  {81.99622844827587, -236.56073009198758},
+  --[|] At the start of each scenario, you may place a [icon] in an adjacent empty hex
+  {81.99622844827587, -307.5727894344246},
+  {81.99622844827587, -320.3976816758039},
+  --[] While you are occupying a hex with a [icon], all attacks targeting you gain disadvantage
+  {81.99622844827587, -390.5286958784437},
 }
 ,
 masteryPositions = {

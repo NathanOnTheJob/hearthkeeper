@@ -6,7 +6,7 @@ perks = {
   },
   [2]={
     remove={"(-1)"},
-    add={"(+0) (Move the token on a (icon) backward one slot)"},
+    add={"(-1) (Place a (icon) in a hex adjacent to or occupied by the target of the attack)"},
   },
   [3]={
     remove={"(-1)"},
@@ -14,44 +14,42 @@ perks = {
   },
   [4]={
     remove={"(-1)"},
-    add={"(+0) (After this attack ability, grant one ally: (move) 2)"},
+    add={"(+0) (Move the token on a (icon) backward one slot)"},
   },
   [5]={
-    remove={"(-1)"},
-    add={"(+0) (After this attack ability, grant one ally: (move) 2)"},
+    remove={"(+0)"},
+    add={"(+1) (Add +1 (attack) for each (icon) in your active area)"},
   },
   [6]={
     remove={"(+0)"},
-    add={"(+1) push 2"},
+    add={"(+1) (Add +1 (attack) for each (icon) in your active area)"},
   },
   [7]={
     remove={"(+0)"},
-    add={"(+1) push 2"},
+    add={"wound rolling"},
   },
   [8]={
     remove={"(+0)"},
-    add={"(+1) (If you or the target is occupying or adjacent to a (icon), (+2) instead)"},
+    add={"wound rolling"},
   },
   [9]={
-    remove={"(+0)"},
-    add={"(+1) (If you or the target is occupying or adjacent to a (icon), (+2) instead)"},
+    add={"(+2) fire"},
   },
   [10]={
-    add={"(+1) muddle rolling","(+1) muddle rolling"},
+    add={"(+2) fire"},
   },
   [11]={
-    add={"((heal) 1, (target) 1 ally) rolling","((heal) 1, (target) 1 ally) rolling"},
+    add={"(+2) fire"},
   },
   [12]={
     add={"((heal) 1, (target) 1 ally) rolling","((heal) 1, (target) 1 ally) rolling"},
   },
   [13]={
-    ignore=ClassApi.PerkType.IgnoreScenario,
-    add={"disarm rolling"},
+    add={"((heal) 1, (target) 1 ally) rolling","((heal) 1, (target) 1 ally) rolling"},
   },
   [14]={},
   [15]={
-    --Once per scenario, when you would lose a card, destroy a (icon) within (range) 2 to discard it instead
+    --Once per scenario, when you would suffer damage, (teleport) to an unoccupied (icon) to negate the damage
     add={"Perk Reminder #15"},
   },
   [16]={},

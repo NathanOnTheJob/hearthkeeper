@@ -51,40 +51,39 @@ CharacterSheet.setup({
   perkPositions = {
   --[] Replace one [-2] card with one [+0] card
   {81.99622844827587, 322.71864377822396},
+  --[] Replace one [-1] card with one [-1] "Place a [icon] in a hex adjacent to or occupied by the target of the attack" card
+  {81.99622844827587, 260.09560720108436},
   --[][] Replace one [-1] card with one [+0] "Move the token on a [icon] backward one slot" card
-  {81.99622844827587, 263.9639460180059},
-  {104.34267241379308, 263.9639460180059},
-  --[][] Replace one [-1] card with one [+0] "After this attack ability, grant one ally: [move] 2" card
-  {81.99622844827587, 179.24594929439252},
-  {104.34267241379308, 179.24594929439252},
-  --[][] Replace one [+0] card with one [+1] push 2 card
-  {81.99622844827587, 94.23885963428324},
-  {104.34267241379308, 94.23885963428324},
-  --[][] Replace one [+0] card with one [+1] "If you or the target is occupying or adjacent to a [icon], [+2] instead" card
-  {81.99622844827587, 35.48416187406519},
-  {104.34267241379308, 35.48416187406519},
-  --[] Add two [+1] muddle rolling cards
-  {81.99622844827587, -75.48622674943954},
+  {81.99622844827587, 146.7298771037564},
+  {104.34267241379308, 146.7298771037564},
+  --[][] Replace one [+0] card with one [+1] "Add +1 [attack] for each [icon] in your active area" card
+  {81.99622844827587, 58.14354156322144},
+  {104.34267241379308, 58.14354156322144},
+  --[][] Replace one [+0] card with one wound rolling card
+  {81.99622844827587, -29.850841774012345},
+  {104.34267241379308, -29.850841774012345},
+  --[][][] Add one [+2] fire card
+  {81.99622844827587, -92.473878351152},
+  {104.34267241379308, -92.473878351152},
+  {126.68911637931035, -92.473878351152},
   --[][] Add two "[heal] 1, [target] 1 ally" rolling cards
-  {81.99622844827587, -107.98853260976631},
-  {104.34267241379308, -107.98853260976631},
-  --[] Ignore scenario effects and add one disarm rolling card
-  {81.99622844827587, -165.86218523018727},
-  --[|] Once per scenario, when you would lose a card, destroy a [icon] within [range] 2 to discard it instead
-  {81.99622844827587, -223.73583785060828},
-  {81.99622844827587, -236.56073009198758},
+  {81.99622844827587, -128.84452302840043},
+  {104.34267241379308, -128.84452302840043},
+  --[|] Once per scenario, when you would suffer damage, [teleport] to an unoccupied [icon] to negate the damage
+  {81.99622844827587, -190.58651446574294},
+  {81.99622844827587, -203.41140670712224},
   --[|] At the start of each scenario, you may place a [icon] in an adjacent empty hex
-  {81.99622844827587, -307.5727894344246},
-  {81.99622844827587, -320.3976816758039},
+  {81.99622844827587, -303.663151626575},
+  {81.99622844827587, -316.4880438679543},
   --[] While you are occupying a hex with a [icon], all attacks targeting you gain disadvantage
-  {81.99622844827587, -390.5286958784437},
+  {81.99622844827587, -390.4873968875158},
 }
 ,
 masteryPositions = {
-  --[] Starting from the end of the second round, always have two [icon] active
+  --[] In a single scenario, have two [icon] active at the end of each of your turns
   {-337.6616379310345, -342.29147447455347},
-  --[] Over the course of a scenario, have the same ally receive a benefit from a [icon] during 10 different rounds
-  {-337.6616379310345, -395.8700320384636},
+  --[] In 4 different scenarios, one for each [icon] color, have that [icon] color active at the end your first 8 turns
+  {-337.6616379310345, -394.60352965000527},
 }
 
 })

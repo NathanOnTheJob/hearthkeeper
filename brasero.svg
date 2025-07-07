@@ -8,8 +8,8 @@
 
     <!-- Gradient for the base/pedestal -->
     <linearGradient id="baseGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#87532b"/>
-      <stop offset="100%" stop-color="#52331b"/>
+      <stop offset="0%" stop-color="#db9763"/>
+      <stop offset="100%" stop-color="#785032"/>
     </linearGradient>
   </defs>
 

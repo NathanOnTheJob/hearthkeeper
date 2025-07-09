@@ -2,14 +2,14 @@
   <defs>
     <!-- Flame gradient: bright to deep orange -->
     <linearGradient id="flameGradient" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ff8c00"/>   <!-- Orange -->
-      <stop offset="100%" stop-color="#c03900"/> <!-- Deep reddish-orange -->
+      <stop offset="0%" stop-color="#ffa142"/>   <!-- Orange -->
+      <stop offset="100%" stop-color="#fc6c12"/> <!-- Deep reddish-orange -->
     </linearGradient>
 
     <!-- Log gradient: light to dark brown -->
     <linearGradient id="logGradient" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#c79b59"/>   <!-- Light brown -->
-      <stop offset="100%" stop-color="#5c3b1e"/> <!-- Dark brown -->
+      <stop offset="0%" stop-color="#f5c67f"/>   <!-- Light brown -->
+      <stop offset="100%" stop-color="#cc933d"/> <!-- Dark brown -->
     </linearGradient>
   </defs>
 

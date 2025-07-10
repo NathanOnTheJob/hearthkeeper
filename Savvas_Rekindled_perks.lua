@@ -10,30 +10,31 @@ perks = {
   },
   [3]={
     remove={"(-1)"},
-    add={"(+0) (Move the token on a (icon) backward one slot)"},
+    add={"(-1) (Place a (icon) in a hex adjacent to or occupied by the target of the attack)"},
   },
   [4]={
     remove={"(-1)"},
     add={"(+0) (Move the token on a (icon) backward one slot)"},
   },
   [5]={
-    remove={"(+0)"},
-    add={"(+1) (Add +1 (attack) for each (icon) in your active area)"},
+    remove={"(-1)"},
+    add={"(+0) (Move the token on a (icon) backward one slot)"},
   },
   [6]={
     remove={"(+0)"},
-    add={"(+1) (Add +1 (attack) for each (icon) in your active area)"},
+    add={"(+0) (Add +1 (attack) for each (icon) in your active area)"},
   },
   [7]={
     remove={"(+0)"},
-    add={"wound rolling"},
+    add={"(+0) (Add +1 (attack) for each (icon) in your active area)"},
   },
   [8]={
     remove={"(+0)"},
     add={"wound rolling"},
   },
   [9]={
-    add={"(+2) fire"},
+    remove={"(+0)"},
+    add={"wound rolling"},
   },
   [10]={
     add={"(+2) fire"},
@@ -49,7 +50,7 @@ perks = {
   },
   [14]={},
   [15]={
-    --Once per scenario, when you would suffer damage, (teleport) to an unoccupied (icon) to negate the damage
+    --Once per scenario, when you would suffer damage, you may (teleport) to an unoccupied (icon) to negate the damage
     add={"Perk Reminder #15"},
   },
   [16]={},

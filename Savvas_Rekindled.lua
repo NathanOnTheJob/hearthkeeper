@@ -51,25 +51,25 @@ CharacterSheet.setup({
   perkPositions = {
   --[] Replace one [-2] card with one [+0] card
   {81.99622844827587, 322.71864377822396},
-  --[] Replace one [-1] card with one [-1] "Place a [icon] in a hex adjacent to or occupied by the target of the attack" card
+  --[][] Replace one [-1] card with one [-1] "Place a [icon] in a hex adjacent to or occupied by the target of the attack" card
   {81.99622844827587, 260.09560720108436},
+  {104.34267241379308, 260.09560720108436},
   --[][] Replace one [-1] card with one [+0] "Move the token on a [icon] backward one slot" card
   {81.99622844827587, 146.7298771037564},
   {104.34267241379308, 146.7298771037564},
-  --[][] Replace one [+0] card with one [+1] "Add +1 [attack] for each [icon] in your active area" card
+  --[][] Replace one [+0] card with one [+0] "Add +1 [attack] for each [icon] in your active area" card
   {81.99622844827587, 58.14354156322144},
   {104.34267241379308, 58.14354156322144},
   --[][] Replace one [+0] card with one wound rolling card
   {81.99622844827587, -29.850841774012345},
   {104.34267241379308, -29.850841774012345},
-  --[][][] Add one [+2] fire card
+  --[][] Add one [+2] fire card
   {81.99622844827587, -92.473878351152},
   {104.34267241379308, -92.473878351152},
-  {126.68911637931035, -92.473878351152},
   --[][] Add two "[heal] 1, [target] 1 ally" rolling cards
   {81.99622844827587, -128.84452302840043},
   {104.34267241379308, -128.84452302840043},
-  --[|] Once per scenario, when you would suffer damage, [teleport] to an unoccupied [icon] to negate the damage
+  --[|] Once per scenario, when you would suffer damage, you may [teleport] to an unoccupied [icon] to negate the damage
   {81.99622844827587, -190.58651446574294},
   {81.99622844827587, -203.41140670712224},
   --[|] At the start of each scenario, you may place a [icon] in an adjacent empty hex
@@ -80,10 +80,10 @@ CharacterSheet.setup({
 }
 ,
 masteryPositions = {
-  --[] In a single scenario, have two [icon] active at the end of each of your turns
+  --[] Starting from the end of the second round, always have two [icon] active
   {-337.6616379310345, -342.29147447455347},
-  --[] In 4 different scenarios, one for each [icon] color, have that [icon] color active at the end your first 8 turns
-  {-337.6616379310345, -394.60352965000527},
+  --[] Over the course of a scenario, have the same ally receive a benefit from a [icon] during 10 different rounds
+  {-337.6616379310345, -395.8700320384636},
 }
 
 })

@@ -3,24 +3,22 @@ deckInfo = {
   description = "Rekindled",
 }
 cardNames = {
-Attack Modifier (+0)
-Attack Modifier (-1) (Place a (icon) in a hex adjacent to or occupied by the target of the attack)
-Attack Modifier (-1) (Place a (icon) in a hex adjacent to or occupied by the target of the attack)
-Attack Modifier (+0) (Move the token on a (icon) backward one slot)
-Attack Modifier (+0) (Move the token on a (icon) backward one slot)
-Attack Modifier (+0) (Add +1 (attack) for each (icon) in your active area)
-Attack Modifier (+0) (Add +1 (attack) for each (icon) in your active area)
-Attack Modifier wound rolling
-Attack Modifier wound rolling
-Attack Modifier (+2) fire
-Attack Modifier (+2) fire
-Attack Modifier ((heal) 1, (target) 1 ally) rolling
-Attack Modifier ((heal) 1, (target) 1 ally) rolling
-Attack Modifier ((heal) 1, (target) 1 ally) rolling
-Attack Modifier ((heal) 1, (target) 1 ally) rolling
+  "Attack Modifier (+0)",
+  "Attack Modifier (-1) (Place a (icon) in a hex adjacent to or occupied by the target of the attack)",
+  "Attack Modifier (-1) (Place a (icon) in a hex adjacent to or occupied by the target of the attack)",
+  "Attack Modifier (+0) wound",
+  "Attack Modifier (+0) wound",
+  "Attack Modifier (+0) wound",
+  "Attack Modifier (+0) (Add +1 (attack) for each (icon) in your active area)",
+  "Attack Modifier (+0) (Add +1 (attack) for each (icon) in your active area)",
+  "Attack Modifier (+1) (After this attack ability, grant self or one of your allies: (move) 2)",
+  "Attack Modifier (+1) (After this attack ability, grant self or one of your allies: (move) 2)",
+  "Attack Modifier (+1) (Gain invisible if you occupy a (icon)) rolling",
+  "Attack Modifier (+1) (Gain invisible if you occupy a (icon)) rolling",
+  "Attack Modifier ((heal) 1, (target) 1 ally) rolling",
+  "Attack Modifier ((heal) 1, (target) 1 ally) rolling",
 }
 cardDescriptions = {
-  "Rekindled",
   "Rekindled",
   "Rekindled",
   "Rekindled",

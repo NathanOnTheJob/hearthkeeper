@@ -50,40 +50,40 @@ local CharacterSheet = require("Game.Frosthaven.Component.FrosthavenCharacterShe
 CharacterSheet.setup({
   perkPositions = {
   --[] Replace one [-2] card with one [+0] card
-  {81.99180866109913, 322.7119136410362},
-  --[][] Replace one [-1] card with one [-1] "Place a [icon] in a hex adjacent to or occupied by the target of the attack" card
-  {81.99180866109913, 263.11234276439745},
-  {104.33372760641163, 263.11234276439745},
-  --[][][] Replace one [-1] card with one [+0] wound card
-  {81.99180866109913, 152.77596604414623},
-  {104.33372760641163, 152.77596604414623},
-  {126.67564655172407, 152.77596604414623},
-  --[][] Replace two [+0] card with one [+0] "Add +1 [attack] for each [icon] in your active area" card
-  {81.99180866109913, 93.17639516750772},
-  {104.33372760641163, 93.17639516750772},
-  --[][] Replace one [+1] card with one [+1] "After this attack ability, grant self or one of your allies: [move] 2" card
-  {81.99180866109913, 7.923984144051914},
-  {104.33372760641163, 7.923984144051914},
-  --[][] Add one [+1] "Gain invisible if you occupy a [icon]" rolling card
-  {81.99180866109913, -102.84359102296021},
-  {104.33372760641163, -102.84359102296021},
-  --[] Add two "[heal] 1, [target] 1 ally" rolling cards
-  {81.99180866109913, -162.4431618995988},
+  {81.99622844827587, 322.71864377822396},
+  --[][] Replace one [-1] card with one [+0] "Grant one ally: [move] 2 or [attack] 2" card
+  {81.99622844827587, 263.13796619944617},
+  {104.34267241379308, 263.13796619944617},
+  --[][] Replace one [-1] card with one [+0] wound card
+  {81.99622844827587, 177.30489672077704},
+  {104.34267241379308, 177.30489672077704},
+  --[][] Replace one [+0] card with one "+1 [attack] for each pair of active [icon]" rolling card
+  {81.99622844827587, 117.72421914199924},
+  {104.34267241379308, 117.72421914199924},
+  --[][] Replace one [+0] card with one [+1] fire card
+  {81.99622844827587, 31.891149663330104},
+  {104.34267241379308, 31.891149663330104},
+  --[][] Add one [+1] "Place a [icon] in a hex adjacent to or occupied by the target of the attack" card
+  {81.99622844827587, -27.68952791544769},
+  {104.34267241379308, -27.68952791544769},
+  --[][] Add one bless [range] 3 rolling and one disarm [range] 3 rolling card
+  {81.99622844827587, -111.76050711452257},
+  {104.34267241379308, -111.76050711452257},
   --[|] Once per scenario, when you would suffer damage, you may [teleport] to an unoccupied [icon] to negate the damage
-  {81.99180866109913, -196.25237790222747},
-  {81.99180866109913, -209.0727812972554},
-  --[|] At the start of each scenario, you may place a [icon] in an adjacent empty hex
-  {81.99180866109913, -306.4511054985624},
-  {81.99180866109913, -319.27150889359035},
-  --[] While you are occupying a hex with a [icon], all attacks targeting you gain disadvantage
-  {81.99180866109913, -390.8410658698071},
+  {81.99622844827587, -171.34118469330042},
+  {81.99622844827587, -184.16607693467972},
+  --[] At the start of each scenario, you may place a [icon] in an adjacent empty hex
+  {81.99622844827587, -281.37546285577065},
+  --[|] Immediately after each of your long rests, you may play a card from your hand for an action that places a [icon]
+  {81.99622844827587, -365.15734911834966},
+  {81.99622844827587, -377.98224135972896},
 }
 ,
 masteryPositions = {
-  --[] In a single scenario, have two [icon] active at the end of each of your turns
-  {-337.6616379310345, -342.28793798498145},
+  --[] In a single scenario, have at least two [icon] active at the end of each of your turns
+  {-337.6616379310345, -342.29147447455347},
   --[] In a single scenario, infuse or consume fire during each of your turns
-  {-337.6616379310345, -407.2823277281675},
+  {-337.6616379310345, -407.2823198648977},
 }
 
 })

@@ -51,32 +51,32 @@ CharacterSheet.setup({
   perkPositions = {
   --[] Replace one [-2] card with one [+0] card
   {81.99622844827587, 322.71864377822396},
-  --[][] Replace one [-1] card with one [+0] "Grant one ally: [move] 2 or [attack] 2" card
-  {81.99622844827587, 263.13796619944617},
-  {104.34267241379308, 263.13796619944617},
-  --[][] Replace one [-1] card with one [+0] wound card
-  {81.99622844827587, 177.30489672077704},
-  {104.34267241379308, 177.30489672077704},
-  --[][] Replace one [+0] card with one "+1 [attack] for each pair of active [icon]" rolling card
-  {81.99622844827587, 117.72421914199924},
-  {104.34267241379308, 117.72421914199924},
-  --[][] Replace one [+0] card with one [+1] fire card
-  {81.99622844827587, 31.891149663330104},
-  {104.34267241379308, 31.891149663330104},
+  --[][] Replace one [-1] card with one [+0] "[heal] 1, bless, [range] 2" card
+  {81.99622844827587, 257.5075371029304},
+  {104.34267241379308, 257.5075371029304},
+  --[][] Replace one [-1] card with one [+0] fire card
+  {81.99622844827587, 192.29643042763678},
+  {104.34267241379308, 192.29643042763678},
+  --[][] Replace one [+0] card with one [+0] disarm card
+  {81.99622844827587, 127.08532375234324},
+  {104.34267241379308, 127.08532375234324},
+  --[][][] Replace one [+0] card with one [+1] "Grant one ally: [attack] 2" card
+  {81.99622844827587, 61.8742170770497},
+  {104.34267241379308, 61.8742170770497},
+  {126.68911637931035, 61.8742170770497},
   --[][] Add one [+1] "Place a [icon] in a hex adjacent to or occupied by the target of the attack" card
-  {81.99622844827587, -27.68952791544769},
-  {104.34267241379308, -27.68952791544769},
-  --[][] Add one bless [range] 3 rolling and one disarm [range] 3 rolling card
-  {81.99622844827587, -111.76050711452257},
-  {104.34267241379308, -111.76050711452257},
-  --[|] Once per scenario, when you would suffer damage, you may [teleport] to an unoccupied [icon] to negate the damage
-  {81.99622844827587, -171.34118469330042},
-  {81.99622844827587, -184.16607693467972},
+  {81.99622844827587, -29.589281498135115},
+  {104.34267241379308, -29.589281498135115},
+  --[][] Add one [+0] "+1 [attack] for each [icon] in your active area" card
+  {81.99622844827587, -119.29068979372573},
+  {104.34267241379308, -119.29068979372573},
   --[] At the start of each scenario, you may place a [icon] in an adjacent empty hex
-  {81.99622844827587, -281.37546285577065},
-  --[|] Immediately after each of your long rests, you may play a card from your hand for an action that places a [icon]
-  {81.99622844827587, -365.15734911834966},
-  {81.99622844827587, -377.98224135972896},
+  {81.99622844827587, -184.2127035325234},
+  --[] Whenever you long rest, perform: strengthen, [target] 1 ally within [range] 2 of a [icon]
+  {81.99622844827587, -273.6250188916182},
+  --[|] Once per scenario, when you would suffer damage, you may [teleport] to an unoccupied [icon] to negate the damage
+  {81.99622844827587, -364.2074723270059},
+  {81.99622844827587, -377.0323645683852},
 }
 ,
 masteryPositions = {

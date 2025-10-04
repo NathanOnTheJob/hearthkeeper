@@ -1,0 +1,53 @@
+<Defaults>
+  <InputField onValueChanged="onValueChanged" onEndEdit="onEndEdit" rotation="0 0 180" colors="#FFFFFF00|#00000070|#000000B0" scale="0.1 0.1" textAlignment="MiddleCenter" fontSize="50"/>
+  <Button colors="#FFFFFF00|#00000070|#000000B0" textColor="#AAAAAA" scale="0.1 0.1" textAlignment="MiddleCenter" fontSize="130"/>
+</Defaults>
+<InputField id="Name" position="27 -73 -11" width="650" height="100" placeholder="Name"/>
+<InputField id="xp" position="54 -35 -11" width="250" height="175" placeholder="0" text="0" fontSize="130" characterLimit="3" characterValidation="Integer"/>
+<Button text="+" onClick="onClick(xp+)" position="39 -35 -11" width="75" height="175"/>
+<Button text="-" onClick="onClick(xp-)" position="69 -35 -11" width="75" height="175"/>
+<InputField id="gold" position="11 -35 -11" width="250" height="175" placeholder="0" text="0" fontSize="130" characterLimit="3" characterValidation="Integer"/>
+<Button text="+" onClick="onClick(gold+)" position="-4 -35 -11" width="75" height="175"/>
+<Button text="-" onClick="onClick(gold-)" position="26 -35 -11" width="75" height="175"/>
+
+
+<InputField id="lumber" position="59.5 -4 -11" width="150" height="140" placeholder="0" text="0" fontSize="100" characterLimit="2" characterValidation="Integer"/>
+<Button text="+" onClick="onClick(lumber+)" position="50 -4 -11" width="50" height="140" fontSize="100"/>
+<Button text="-" onClick="onClick(lumber-)" position="69 -4 -11" width="50" height="140" fontSize="100"/>
+
+<InputField id="metal" position="32 -4 -11" width="150" height="140" placeholder="0" text="0" fontSize="100" characterLimit="2" characterValidation="Integer"/>
+<Button text="+" onClick="onClick(metal+)" position="22 -4 -11" width="50" height="140" fontSize="100"/>
+<Button text="-" onClick="onClick(metal-)" position="43 -4 -11" width="50" height="140" fontSize="100"/>
+
+<InputField id="hide" position="6 -4 -11" width="150" height="140" placeholder="0" text="0" fontSize="100" characterLimit="2" characterValidation="Integer"/>
+<Button text="+" onClick="onClick(hide+)" position="-4 -4 -11" width="50" height="140" fontSize="100"/>
+<Button text="-" onClick="onClick(hide-)" position="16 -4 -11" width="50" height="140" fontSize="100"/>
+
+
+<InputField id="arrowvine" position="57 10 -11" width="110" height="110" placeholder="0" text="0" fontSize="80" characterLimit="2" characterValidation="Integer"/>
+<Button text="+" onClick="onClick(arrowvine+)" position="50 10 -11" width="40" height="110" fontSize="80"/>
+<Button text="-" onClick="onClick(arrowvine-)" position="64 10 -11" width="40" height="110" fontSize="80"/>
+
+<InputField id="axenut" position="30 10 -11" width="110" height="110" placeholder="0" text="0" fontSize="80" characterLimit="2" characterValidation="Integer"/>
+<Button text="+" onClick="onClick(axenut+)" position="23 10 -11" width="40" height="110" fontSize="80"/>
+<Button text="-" onClick="onClick(axenut-)" position="37 10 -11" width="40" height="110" fontSize="80"/>
+
+<InputField id="corpsecap" position="3 10 -11" width="110" height="110" placeholder="0" text="0" fontSize="80" characterLimit="2" characterValidation="Integer"/>
+<Button text="+" onClick="onClick(corpsecap+)" position="-4 10 -11" width="40" height="110" fontSize="80"/>
+<Button text="-" onClick="onClick(corpsecap-)" position="10 10 -11" width="40" height="110" fontSize="80"/>
+
+<InputField id="flamefruit" position="57 21 -11" width="110" height="110" placeholder="0" text="0" fontSize="80" characterLimit="2" characterValidation="Integer"/>
+<Button text="+" onClick="onClick(flamefruit+)" position="50 21 -11" width="40" height="110" fontSize="80"/>
+<Button text="-" onClick="onClick(flamefruit-)" position="64 21 -11" width="40" height="110" fontSize="80"/>
+
+<InputField id="rockroot" position="30 21 -11" width="110" height="110" placeholder="0" text="0" fontSize="80" characterLimit="2" characterValidation="Integer"/>
+<Button text="+" onClick="onClick(rockroot+)" position="23 21 -11" width="40" height="110" fontSize="80"/>
+<Button text="-" onClick="onClick(rockroot-)" position="37 21 -11" width="40" height="110" fontSize="80"/>
+
+<InputField id="snowthistle" position="3 21 -11" width="110" height="110" placeholder="0" text="0" fontSize="80" characterLimit="2" characterValidation="Integer"/>
+<Button text="+" onClick="onClick(snowthistle+)" position="-4 21 -11" width="40" height="110" fontSize="80"/>
+<Button text="-" onClick="onClick(snowthistle-)" position="10 21 -11" width="40" height="110" fontSize="80"/>
+
+<InputField id="Items" rotation="180 0 0" position="0 70 1" width="1400" height="350" placeholder="Items" textAlignment="UpperLeft" lineType="MultiLineNewLine"/>
+<InputField id="NotesFront" position="33 44 -11" width="800" height="180" fontSize="30" placeholder="Notes (more notes and items on back)" textAlignment="UpperLeft" lineType="MultiLineNewLine"/>
+<InputField id="Notes" rotation="180 0 0" position="0 -16 1" width="1400" height="1350" placeholder="Notes" textAlignment="UpperLeft" lineType="MultiLineNewLine"/>

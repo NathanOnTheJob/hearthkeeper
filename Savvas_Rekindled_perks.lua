@@ -6,11 +6,11 @@ perks = {
   },
   [2]={
     remove={"(-1)"},
-    add={"(+0) ((heal) 1, bless, (range) 2)"},
+    add={"(+0) ((heal) 1, bless, (target) 1 ally)"},
   },
   [3]={
     remove={"(-1)"},
-    add={"(+0) ((heal) 1, bless, (range) 2)"},
+    add={"(+0) ((heal) 1, bless, (target) 1 ally)"},
   },
   [4]={
     remove={"(-1)"},
@@ -21,12 +21,12 @@ perks = {
     add={"(+0) fire"},
   },
   [6]={
-    remove={"(+0)"},
-    add={"(+0) disarm"},
+    remove={"(+0)","(+1)"},
+    add={"(+1) disarm"},
   },
   [7]={
-    remove={"(+0)"},
-    add={"(+0) disarm"},
+    remove={"(+0)","(+1)"},
+    add={"(+1) disarm"},
   },
   [8]={
     remove={"(+0)"},
@@ -57,7 +57,7 @@ perks = {
     add={"Perk Reminder #15"},
   },
   [16]={
-    --Whenever you long rest, perform: strengthen, (target) 1 ally within (range) 2 of a (icon)
+    --Whenever you rest, perform: strengthen, (target) 1 ally within (range) 2 of a (icon)
     add={"Perk Reminder #16"},
   },
   [17]={},

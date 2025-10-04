@@ -4,12 +4,12 @@ deckInfo = {
 }
 cardNames = {
   "Attack Modifier (+0)",
-  "Attack Modifier (+0) ((heal) 1, bless, (range) 2)",
-  "Attack Modifier (+0) ((heal) 1, bless, (range) 2)",
+  "Attack Modifier (+0) ((heal) 1, bless, (target) 1 ally)",
+  "Attack Modifier (+0) ((heal) 1, bless, (target) 1 ally)",
   "Attack Modifier (+0) fire",
   "Attack Modifier (+0) fire",
-  "Attack Modifier (+0) disarm",
-  "Attack Modifier (+0) disarm",
+  "Attack Modifier (+1) disarm",
+  "Attack Modifier (+1) disarm",
   "Attack Modifier (+1) (Grant one ally: (attack) 2)",
   "Attack Modifier (+1) (Grant one ally: (attack) 2)",
   "Attack Modifier (+1) (Grant one ally: (attack) 2)",

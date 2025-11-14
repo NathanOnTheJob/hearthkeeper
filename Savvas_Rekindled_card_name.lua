@@ -4,19 +4,19 @@ deckInfo = {
 }
 cardNames = {
   "Attack Modifier (+0)",
-  "Attack Modifier (+0) ((heal) 1, bless, (target) 1 ally)",
-  "Attack Modifier (+0) ((heal) 1, bless, (target) 1 ally)",
+  "Attack Modifier (+0) (Grant an ally: (attack) 1, (range) 3)",
+  "Attack Modifier (+0) (Grant an ally: (attack) 1, (range) 3)",
   "Attack Modifier (+0) fire",
   "Attack Modifier (+0) fire",
+  "Attack Modifier (+1) (Add +2 (attack) if you have two or more (icon) in your active area)",
+  "Attack Modifier (+1) (Add +2 (attack) if you have two or more (icon) in your active area)",
+  "Attack Modifier (+1) (Add +2 (attack) if you have two or more (icon) in your active area)",
   "Attack Modifier (+1) disarm",
   "Attack Modifier (+1) disarm",
-  "Attack Modifier (+1) (Grant one ally: (attack) 2)",
-  "Attack Modifier (+1) (Grant one ally: (attack) 2)",
-  "Attack Modifier (+1) (Grant one ally: (attack) 2)",
   "Attack Modifier (+1) (Place a (icon) in a hex adjacent to or occupied by the target of the attack)",
   "Attack Modifier (+1) (Place a (icon) in a hex adjacent to or occupied by the target of the attack)",
-  "Attack Modifier (+0) (+1 (attack) for each (icon) in your active area)",
-  "Attack Modifier (+0) (+1 (attack) for each (icon) in your active area)",
+  "Attack Modifier (+1) (Place a (icon) in a hex adjacent to or occupied by the target of the attack)",
+  "Attack Modifier (+1) (bless, (target) 1 ally)",
 }
 cardDescriptions = {
   "Rekindled",

@@ -6,11 +6,11 @@ perks = {
   },
   [2]={
     remove={"(-1)"},
-    add={"(+0) ((heal) 1, bless, (target) 1 ally)"},
+    add={"(+0) (Grant an ally: (attack) 1, (range) 3)"},
   },
   [3]={
     remove={"(-1)"},
-    add={"(+0) ((heal) 1, bless, (target) 1 ally)"},
+    add={"(+0) (Grant an ally: (attack) 1, (range) 3)"},
   },
   [4]={
     remove={"(-1)"},
@@ -21,24 +21,24 @@ perks = {
     add={"(+0) fire"},
   },
   [6]={
-    remove={"(+0)","(+1)"},
-    add={"(+1) disarm"},
+    remove={"(+0)"},
+    add={"(+1) (Add +2 (attack) if you have two or more (icon) in your active area)"},
   },
   [7]={
-    remove={"(+0)","(+1)"},
-    add={"(+1) disarm"},
+    remove={"(+0)"},
+    add={"(+1) (Add +2 (attack) if you have two or more (icon) in your active area)"},
   },
   [8]={
     remove={"(+0)"},
-    add={"(+1) (Grant one ally: (attack) 2)"},
+    add={"(+1) (Add +2 (attack) if you have two or more (icon) in your active area)"},
   },
   [9]={
-    remove={"(+0)"},
-    add={"(+1) (Grant one ally: (attack) 2)"},
+    remove={"(+0)","(+1)"},
+    add={"(+1) disarm"},
   },
   [10]={
-    remove={"(+0)"},
-    add={"(+1) (Grant one ally: (attack) 2)"},
+    remove={"(+0)","(+1)"},
+    add={"(+1) disarm"},
   },
   [11]={
     add={"(+1) (Place a (icon) in a hex adjacent to or occupied by the target of the attack)"},
@@ -47,10 +47,11 @@ perks = {
     add={"(+1) (Place a (icon) in a hex adjacent to or occupied by the target of the attack)"},
   },
   [13]={
-    add={"(+0) (+1 (attack) for each (icon) in your active area)"},
+    add={"(+1) (Place a (icon) in a hex adjacent to or occupied by the target of the attack)"},
   },
   [14]={
-    add={"(+0) (+1 (attack) for each (icon) in your active area)"},
+    ignore=ClassApi.PerkType.IgnoreScenario,
+    add={"(+1) (bless, (target) 1 ally)"},
   },
   [15]={
     --At the start of each scenario, you may place a (icon) in an adjacent empty hex

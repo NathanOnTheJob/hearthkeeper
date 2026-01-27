@@ -3,19 +3,19 @@ deckInfo = {
   description = "Rekindled",
 }
 cardNames = {
-  "Attack Modifier (+0)",
-  "Attack Modifier (-1) (Grant one ally: (attack)2) rolling",
-  "Attack Modifier (-1) (Grant one ally: (attack)2) rolling",
-  "Attack Modifier (+0) fire",
-  "Attack Modifier (+0) fire",
-  "Attack Modifier (+1) (Add +2 (attack) if you have two or more (icon) in your active area)",
-  "Attack Modifier (+1) (Add +2 (attack) if you have two or more (icon) in your active area)",
-  "Attack Modifier (+1) (Add +2 (attack) if you have two or more (icon) in your active area)",
-  "Attack Modifier (+1) disarm",
-  "Attack Modifier (+1) disarm",
-  "Attack Modifier (+1) (Place a (icon) in a hex adjacent to or occupied by the target of the attack)",
-  "Attack Modifier (+1) (Place a (icon) in a hex adjacent to or occupied by the target of the attack)",
-  "Attack Modifier (bless, (target) 1 ally) rolling",
+Attack Modifier (+0)"
+Attack Modifier (-1) (Grant one ally: (attack)2) rolling"
+Attack Modifier (-1) (Grant one ally: (attack)2) rolling"
+Attack Modifier (+0) fire"
+Attack Modifier (+0) fire"
+Attack Modifier (+1) (Add +2 (attack) if you have two or more (icon) in your active area)"
+Attack Modifier (+1) (Add +2 (attack) if you have two or more (icon) in your active area)"
+Attack Modifier (+1) (Add +2 (attack) if you have two or more (icon) in your active area)"
+Attack Modifier (+1) disarm"
+Attack Modifier (+1) disarm"
+Attack Modifier (+1) (Place a (icon) in a hex adjacent to or occupied by the target of the attack)"
+Attack Modifier (+1) (Place a (icon) in a hex adjacent to or occupied by the target of the attack)"
+Attack Modifier (bless, (target) 1 ally) rolling"
 }
 cardDescriptions = {
   "Rekindled",

@@ -51,32 +51,32 @@ CharacterSheet.setup({
   perkPositions = {
   --[] Replace one [-2] card with one [+0] card
   {81.99622844827587, 322.71864377822396},
-  --[][] Replace one [-1] card with one [+0] "Grant an ally: [attack] 1, [range] 3" card
-  {81.99622844827587, 263.0416018872809},
-  {104.34267241379308, 263.0416018872809},
+  --[][] Replace one [-1] card with one [-1] "Grant one ally: [attack]2" rolling card
+  {81.99622844827587, 260.15067252232154},
+  {104.34267241379308, 260.15067252232154},
   --[][] Replace one [-1] card with one [+0] fire card
-  {81.99622844827587, 177.11216809644645},
-  {104.34267241379308, 177.11216809644645},
+  {81.99622844827587, 171.330309366528},
+  {104.34267241379308, 171.330309366528},
   --[][][] Replace one [+0] card with one [+1] "Add +2 [attack] if you have two or more [icon] in your active area" card
-  {81.99622844827587, 117.43512620550337},
-  {104.34267241379308, 117.43512620550337},
-  {126.68911637931035, 117.43512620550337},
-  --[][] Replace one [+0] card and one [+1] card with one [+1] disarm card
-  {81.99622844827587, 6.423438591070742},
-  {104.34267241379308, 6.423438591070742},
-  --[][][] Add one [+1] "Place a [icon] in a hex adjacent to or occupied by the target of the attack" card
-  {81.99622844827587, -53.2536032998724},
-  {104.34267241379308, -53.2536032998724},
-  {126.68911637931035, -53.2536032998724},
-  --[] Ignore scenario effects and add one [+1] "bless, [target] 1 ally" card
-  {81.99622844827587, -162.79229357120687},
-  --[] At the start of each scenario, you may place a [icon] in an adjacent empty hex
-  {81.99622844827587, -221.58829032235286},
+  {81.99622844827587, 108.76233811062582},
+  {104.34267241379308, 108.76233811062582},
+  {126.68911637931035, 108.76233811062582},
+  --[][] Replace one [+0] card with one [+1] disarm card
+  {81.99622844827587, -5.140278868766025},
+  {104.34267241379308, -5.140278868766025},
+  --[][] Add one [+1] "Place a [icon] in a hex adjacent to or occupied by the target of the attack" card
+  {81.99622844827587, -67.70825012466833},
+  {104.34267241379308, -67.70825012466833},
+  --[] Ignore scenario effects and add one "bless, [target] 1 ally" rolling card
+  {81.99622844827587, -154.76652300086772},
   --[] Whenever you rest, perform: strengthen, [target] 1 ally within [range] 2 of a [icon]
-  {81.99622844827587, -305.46654089709716},
+  {81.99622844827587, -216.453449116973},
+  --[|] On your first turn each scenario, you may play three cards instead of two
+  {81.99622844827587, -278.1403752330782},
+  {81.99622844827587, -290.9652674744575},
   --[|] Once per scenario, when you would suffer damage, you may [teleport] to an unoccupied [icon] to negate the damage
-  {81.99622844827587, -364.26253764824315},
-  {81.99622844827587, -377.08742988962246},
+  {81.99622844827587, -364.3176029694805},
+  {81.99622844827587, -377.1424952108598},
 }
 ,
 masteryPositions = {
